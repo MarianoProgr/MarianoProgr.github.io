@@ -3,26 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MarianoBenitez.com.ar</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header class="Header">
-        <!-- <div class="displayer-header">
-            <button>Changecolor</button>
-            <input type="checkbox">
-        </div> -->
+        <div class="displayer-header">
+                <button>Changecolor</button>
+
+                <label class="toggle-switch">
+                    <input type="checkbox">
+                    <div class="toggle-switch-background">
+                        <div class="toggle-switch-handle"></div>
+                    </div>
+                </label>
+
+        </div>
     </header>
     <main class="Main">
-        <div class="Texto">
-            <h1>Pagina en progreso</h1>
-            <h5>proximamente se podra visualizar mi pagina</h5>
-            <button onclick="contacto()">Boton de contacto</button>
-        </div>
+
+            <!-- Nombre y Foto -->
+            <section class="Main-intro-part">
+                <div id="Main-intro-part-div">
+                        <img src="Images/Perfil.jpg" alt="placeholder" id="Main-intro-part-img" >
+                        <h1 id="Main-intro-part-h1">Mariano Benitez</h1>
+                </div>
+            </section>
+            
+            <!-- introduccion  -->
+            <section class="Main-first-part">
+                <div id ="Main-first-part-div">
+
+                    <h1 id ="Main-first-part-h1">Desarrollador de software</h1>
+                    <p id="Main-first-part-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus modi suscipit, voluptate animi quibusdam aperiam quisquam placeat repellendus cupiditate at? Harum provident vero sapiente, assumenda a accusantium nihil vel asperiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus velit et laudantium id fugit, reprehenderit illo ullam incidunt quod animi nihil deserunt quis odit repellat maxime soluta quia provident cum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam velit pariatur molestiae ut nesciunt accusantium esse doloribus, delectus earum ipsum dicta! Natus nostrum aut blanditiis expedita, dolore voluptas quo facere.</p>
+
+                </div>
+            </section>
+
+            <!-- herramientas -->
+            <section class="Main-Second-part">
+                <div id ="Main-Second-part-div">
+
+                    <h2 id ="Main-Second-part-h2">Herramientas</h2>
+                    <div id ="Main-Second-part-Div-container">
+                        <div id ="Main-Second-part-div-Section-Herramientas">
+                            <button id ="Main-Second-part-Button">Gestion de datos</button>
+                            <button id ="Main-Second-part-Button">Lenguajes</button>
+                            <button id ="Main-Second-part-Button">Apliaciones Externas </button>
+                        </div>
+                        <div id ="Main-Second-part-div-Section-Panel">
+                            <p id="Main-Second-part-div-Section-Panel-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consectetur accusamus adipisci tenetur cum cumque dignissimos quis quibusdam dicta, esse maxime quas dolorem necessitatibus molestias dolore deleniti temporibus itaque minus.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- proyectos -->
+            <section class="Main-Third-part">
+                <div id ="Main-Third-part-div">
+                    <h1 id = "Main-Third-part-h1">Proyectos Personales</h1>
+                    <div id="Main-Third-part-Cards-container">
+                        <div id="Main-Third-part-Card">
+                            <h5>proyecto1</h5>
+                            <img src="placeholder" alt="placeholder">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi amet, alias veritatis porro doloremque rerum.</p>
+                            <button>Download</button>
+                        </div>
+                        <div id="Main-Third-part-Card">
+                            <h5>proyecto2</h5>
+                            <img src="placeholder" alt="placeholder">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi amet, alias veritatis porro doloremque rerum.</p>
+                            <button>Download</button>
+                        </div>
+                        <div id="Main-Third-part-Card">
+                            <h5>proyecto3</h5>
+                            <img src="placeholder" alt="placeholder">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi amet, alias veritatis porro doloremque rerum.</p>
+                            <button>Download</button>
+                        </div>     
+                    </div>
+
+                </div>
+
+            </section>            
+
+
+
+            <!-- <button onclick="contacto()">Boton de contacto</button> -->
+ 
     </main>
-    <!-- <footer class="Footer">
-        <p>hola soy el footer</p>
-    </footer> -->
+    <footer class="Footer">
+        <div id = "footer-elements">
+        <a href="https://wa.me/1154716240?text=Hola%20,%20quisiera%20saber%20más%20sobre%20sus%20servicios">Mi Numero de whatsapp</a>
+        <a href="https://github.com/MarianoProgr"> Mi github MarianoProgr</a>
+        <a href="mailto:Benitezmariano.ruben@gmail.com?Subject=Hola%20desde%20mi%20web&body=Hola,%20me%20gustaria%20contactarte">Mi mail</a>
+        </div>
+    </footer>
 
  <script src="index.js"></script>
 </body>
