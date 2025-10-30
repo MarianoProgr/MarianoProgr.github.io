@@ -256,7 +256,7 @@
             flex: 1;
         }
 
-      #Main-Second-part-Button {
+      .Main-Second-part-Button {
             background: rgba(255, 255, 255, 0.05);
             backdrop-filter: blur(10px);
             border: 1px solid rgba(102, 126, 234, 0.3);
@@ -270,14 +270,14 @@
             min-height: 50px;
         }
 
-      #Main-Second-part-Button:hover {
+      .Main-Second-part-Button:hover {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             border-color: rgba(102, 126, 234, 0.6);
             transform: translateX(5px);
             box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
         }
 
-      #Main-Second-part-div-Section-Panel {
+      #Main-Second-part-side-div-Section-Panel {
             flex: 1;
             background: rgba(255, 255, 255, 0.05);
             backdrop-filter: blur(10px);
@@ -286,9 +286,24 @@
             flex-direction: column;
         }
         
-      #Main-Second-part-div-Section-Panel, button {
+      #Main-Second-part-side-div-Section-Panel, button {
       margin: 10px;  
       }
+
+.Main-Second-part-Button-sub-btn
+{
+ background: rgba(255, 255, 255, 0.05);
+            border: 0px;
+            color: white;
+            padding: 15px 20px;
+            border-radius: 12px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            height: auto;
+            min-height: 50px;
+}
+
 
 
         /* Third Section - Proyectos */
