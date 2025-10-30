@@ -19,7 +19,7 @@ function setButtons(items){
   subButtons.forEach((element, index) => {
     if (index < items.length) {
       element.textContent = items[index];
-      element.dataset.original = items[index]; // guardamos el texto actual
+      element.dataset.original = items[index]; 
     } else {
       element.textContent = "";
       element.dataset.original = "";
