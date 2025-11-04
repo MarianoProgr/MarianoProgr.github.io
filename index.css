@@ -58,7 +58,6 @@
         }
 
 
-      /* inicio switch         */
       .toggle-switch {
         position: relative;
         display: inline-block;
@@ -114,7 +113,6 @@
       .toggle-switch input[type="checkbox"]:checked + .toggle-switch-background .toggle-switch-handle {
         transform: translateX(40px);
       }
-      /* fin switch */
 
 
 
@@ -180,17 +178,31 @@
             object-fit: cover;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         }
+
+      .Main-intro-part-introduction{
+        background-color: #ffffff1c;
+        padding: 2em;
+        border-radius: 2.7em;
+      }
+
       #Main-intro-part-h1 {
-            font-size: 3.5em;
+            font-size: 3em;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
 
+      #Main-intro-part-h2{
+            font-size: 2.7em;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-decoration: underline;
+            display: inline-block;
+        }
 
+        
 
-        /* First Section - Desarrollador */
       .Main-first-part {
             padding: 60px 20px;
             max-width: 900px;
@@ -207,9 +219,10 @@
         }
 
       #Main-first-part-h1 {
-            font-size: 2.5em;
-            margin-bottom: 20px;
-            color: #667eea;
+          font-size: 2.5em;
+          margin-bottom: 20px;
+          color: #667eea;
+          text-align: center;
         }
 
       #Main-first-part-p {
@@ -290,19 +303,19 @@
       margin: 10px;  
       }
 
-.Main-Second-part-Button-sub-btn
-{
- background: rgba(255, 255, 255, 0.05);
-            border: 0px;
-            color: white;
-            padding: 15px 20px;
-            border-radius: 12px;
-            cursor: pointer;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            height: auto;
-            min-height: 50px;
-}
+      .Main-Second-part-Button-sub-btn
+      {
+      background: rgba(255, 255, 255, 0.05);
+                  border: 0px;
+                  color: white;
+                  padding: 15px 20px;
+                  border-radius: 12px;
+                  cursor: pointer;
+                  font-weight: 600;
+                  transition: all 0.3s ease;
+                  height: auto;
+                  min-height: 50px;
+      }
 
 
 
@@ -391,16 +404,6 @@
         }
 
 
-
-
-
-
-
-
-
-        
-        
-        
               /* Responsive */
         @media (max-width: 768px) {
             #Main-intro-part-h1 {
